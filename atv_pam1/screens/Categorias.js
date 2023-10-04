@@ -25,7 +25,7 @@ export default function Categorias() {
 
             {/* BOTÃO DE CADASTRO */}
             <TouchableOpacity style={styles.btnCadastro}>
-                <Text style={styles.txtLogin}>
+                <Text style={styles.txtCadastro}>
                     Cadastrar
                 </Text>
             </TouchableOpacity>
@@ -60,9 +60,10 @@ const styles = StyleSheet.create({
     },
     containerTextInput: {
         flexDirection: 'row',
-        borderBottomColor: '#ccc',
-        borderBottomWidth: 1,
-        paddingBottom: 8,
+        borderColor: '#ccc',
+        borderWidth: 1,
+        borderRadius: 10,
+        padding: 10,
         marginBottom: 25,
         alignItems: 'center',
     },
@@ -78,7 +79,7 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         marginBottom: 30,
     },
-    txtLogin: {
+    txtCadastro: {
         textAlign: 'center',
         fontSize: 16,
         fontWeight: '700',
